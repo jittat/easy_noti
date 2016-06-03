@@ -1,0 +1,6 @@
+[{"name": "filename",
+  "conditions": [{"touched":300}],
+  "action": "email",
+  "action_data": {"recipient": "someone@example.com",
+                  "subject": "alert",
+                  "message": "file not touched in 5 minutes"}}]
